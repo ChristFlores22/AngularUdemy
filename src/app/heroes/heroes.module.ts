@@ -14,7 +14,7 @@ import { ListadoComponent } from './listado/listado.component';
     imports:[
         //modulos necesarios.
       
-        //CommonModule
+        CommonModule
     ]   
 })
 export class HeroesModule{

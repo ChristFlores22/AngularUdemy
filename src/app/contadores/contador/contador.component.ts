@@ -1,4 +1,3 @@
-import { templateJitUrl } from '@angular/compiler';
 import { Component} from '@angular/core'
 @Component({
     selector: 'app-contador',
@@ -12,8 +11,7 @@ import { Component} from '@angular/core'
 
         <button (click)="acumular(-base)"> - {{ base }} </button>
 
-    `
-  
+    `  
 })
 export class ContadorComponent{
 
