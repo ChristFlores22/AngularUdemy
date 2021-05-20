@@ -17,19 +17,14 @@ export class MainPageComponent {
       poder: 8500
     }
   ];
-    
   nuevo: Personaje = {
-    nombre: '',
-    poder: 0
+    nombre: 'Goten',
+    poder: 20000
+  };
+  
+  agregarNuevoPersonaje(argumento:Personaje){
+    this.personajes.push(argumento);
   }
-  agregar(){
-    if (this.nuevo.nombre.trim().length === 0){ return; }
-     console.log(this.nuevo);
-     this.personajes.push(this.nuevo);
-     this.nuevo={
-       nombre:'',
-       poder:0
-      }
-    
-  }
+
 }
+  
